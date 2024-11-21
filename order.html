@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Layanan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Order Layanan</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="manfaat.html">Manfaat</a></li>
+                <li><a href="prosedur.html">Prosedur</a></li>
+                <li><a href="mitra.html">Mitra</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <h2>Formulir Order</h2>
+            <form action="" method="POST">
+                <div class="form-group">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+                <div class="form-group">
+                    <label for="telepon">Nomor Telepon:</label>
+                    <input type="tel" id="telepon" name="telepon" required>
+                </div>
+                <div class="form-group">
+                    <label for="alamat">Alamat:</label>
+                    <textarea id="alamat" name="alamat" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="layanan">Layanan:</label>
+                    <select id="layanan" name="layanan" required>
+                        <option value="ganti-oli">Ganti Oli</option>
+                        <option value="service-ringan">Servis Ringan</option>
+                        <option value="service-berat">Servis Berat</option>
+                        <option value="spare-part">Ganti Spare Part</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-submit">Pesan Sekarang</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+          <div class="content">
+            <div>
+              <p>@Copyright by 22552011072_SHAIFUL ANAM_TIF 22 CID</p>
+            </div>
+            <p>&copy; 2024 PT. Ipul Sentosa. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
